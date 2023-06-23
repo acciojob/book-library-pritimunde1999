@@ -1,6 +1,8 @@
 /*  your css code here. If applicable */
 .book-library{
 	background-color:#f8f8f8;
+	border-sizing: border-box;
+	box-shadow:1px 1px 1px 1px gray;
 }
 
 .head{
@@ -34,14 +36,16 @@
 	color:#777777;
 }
 
-.book button{
+.price-block{
 	margin-left:15px;
 	margin-right:15px;
+	vbx-sizing:border-box;
 	background-color:rgb(46, 204, 113);
-	color:#ffffff;
+	color:rgb(255,255,255);
 	border: none;
 	width:95%;
 	border-radius:2px;
 	margin-bottom:10px;
 	
 }
+
